@@ -1,5 +1,5 @@
 # Tests rangeQueryExhaustive().
-# library(BiocNeighbors); library(testthat); source("setup.R"); source("test-range-query-kmknn.R")
+# library(BiocNeighbors); library(testthat); source("setup.R"); source("test-range-query-exhaustive.R")
 
 set.seed(1001)
 test_that("rangeQueryExhaustive() behaves correctly with queries", {
