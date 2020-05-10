@@ -10,7 +10,23 @@
 \alias{bndata,BiocNeighborIndex,}
 \alias{dimnames,BiocNeighborIndex}
 \alias{dim,BiocNeighborIndex}
+\alias{show,BiocNeighborIndex-method}
+\alias{bndistance,BiocNeighborIndex-method}
+\alias{dimnames,BiocNeighborIndex-method}
+\alias{bndata,BiocNeighborIndex-method}
+\alias{dim,BiocNeighborIndex-method}
 \title{The BiocNeighborIndex class}
+\usage{
+\S4method{show}{BiocNeighborIndex}(object)
+
+\S4method{bndistance}{BiocNeighborIndex}(x)
+
+\S4method{dimnames}{BiocNeighborIndex}(x)
+
+\S4method{bndata}{BiocNeighborIndex}(x)
+
+\S4method{dim}{BiocNeighborIndex}(x)
+}
 \description{
 A virtual class for indexing structures of different nearest-neighbor search algorithms.
 }

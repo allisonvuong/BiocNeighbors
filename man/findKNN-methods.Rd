@@ -2,11 +2,11 @@
 % Please edit documentation in R/findKNN-methods.R
 \name{findKNN methods}
 \alias{findKNN methods}
-\alias{findKNN-methods,}
-\alias{findExhaustive,}
-\alias{findKmknn,}
-\alias{findVptree,}
-\alias{findAnnoy,}
+\alias{findKNN-methods}
+\alias{findExhaustive}
+\alias{findKmknn}
+\alias{findVptree}
+\alias{findAnnoy}
 \alias{findHnsw}
 \title{Find nearest neighbors}
 \arguments{
